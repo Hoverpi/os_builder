@@ -1,0 +1,8 @@
+[package]
+name = "manager"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+parted = { path = "../ffi/parted", default-features = false, features = ["std"] }
+cryptsetup = { path = "../ffi/cryptsetup", default-features = false, features = ["std"] }

@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "ffi/cryptsetup", "ffi/parted",
+  "manager",
+]
+
+
+resolver = "3"

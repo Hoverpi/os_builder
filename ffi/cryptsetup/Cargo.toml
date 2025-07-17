@@ -1,0 +1,22 @@
+[package]
+name = "cryptsetup"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+[profile.dev]
+panic ="abort"
+
+[profile.release]
+panic ="abort"
+
+[profile.test]
+panic ="abort"
+
+[build-dependencies]
+bindgen = "0.72.0"
+
+[features]
+std = []
+
+[dependencies]
